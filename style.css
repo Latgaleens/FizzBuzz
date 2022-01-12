@@ -282,3 +282,84 @@ h4{
     border: 8px;
     padding:2px;
 }
+
+@media (max-width: 992px) {
+    #container {
+        width: 500px;
+        height: 100%;
+        margin : 0 auto;
+        background-color: transparent;
+    }
+
+    #valueBox{
+        display:block;
+            max-width:992px;
+    }
+
+    #elements {
+        display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+    }
+
+    input[type=number]{
+        width: 100px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    #container {
+        width: 300px;
+        height: 100%;
+        margin : 0 auto;
+        background-color: transparent;
+    }
+
+    #valueBox{
+        display:block;
+        max-width:576px;
+
+    }
+
+    #generate{
+        text-align: center;
+        width: 280px;
+    }
+
+    #generate2{
+        text-align: center;
+        width: 280px;
+    }
+
+    #clear{
+        text-align: center;
+        width: 280px;
+    }
+
+    #FizzGen{
+        text-align: center;
+        width: 280px;
+    }
+
+    #BuzzGen{
+        text-align: center;
+        width: 280px;
+    }
+
+    #FizzBuzzGen{
+        text-align: center;
+        width: 280px;
+    }
+
+    #elements {
+        display: inline;
+    }
+
+    input[type=number]{
+        width: 100px;
+    }
+
+
