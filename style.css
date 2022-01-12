@@ -320,43 +320,36 @@ h4{
     #valueBox{
         display:block;
         max-width:576px;
-        color: white;
     }
 
     #generate{
         text-align: center;
         width: 280px;
-        color: white;
     }
 
     #generate2{
         text-align: center;
         width: 280px;
-        color: white;
     }
 
     #clear{
         text-align: center;
         width: 280px;
-        color: white;
     }
 
     #FizzGen{
         text-align: center;
         width: 280px;
-        color: white;
     }
 
     #BuzzGen{
         text-align: center;
         width: 280px;
-        color: white;
     }
 
     #FizzBuzzGen{
         text-align: center;
         width: 280px;
-        color: white;
     }
 
     #elements {
