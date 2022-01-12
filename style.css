@@ -359,5 +359,9 @@ h4{
     input[type=number]{
         width: 100px;
     }
-
+    
+    img {
+    width: auto;
+    height: 50px;
+    }   
 }
