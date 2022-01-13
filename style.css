@@ -30,7 +30,7 @@ header {
     min-height: 100px;
     font-size: 1.5em;
     border-radius:4px;
-    border:1px solid #black;
+    border:1px solid #bbb;
 
     transition: all 0.3s linear;
     background: linear-gradient(to top, #ff723a 0%,#ff5709 100%); /* W3C */
@@ -48,7 +48,7 @@ header {
     min-height: 100px;
     font-size: 1.5em;
     border-radius: 4px;
-    border: 1px solid #black;
+    border: 1px solid #bbb;
     
     transition: all 0.3s linear;
     background: linear-gradient(to top, #ffd900 0%,#fff134 100%); /* W3C */
@@ -66,7 +66,7 @@ header {
     min-height: 100px;
     font-size: 1.5em;
     border-radius:4px;
-    border:1px solid #black;
+    border:1px solid #bbb;
 
     transition: all 0.3s linear;
     background: linear-gradient(to top, #ffa115 0%,#febf04 100%); /* W3C */
@@ -114,7 +114,7 @@ header {
     cursor: pointer;
 }
 #endValue{
-    border: thick double #000000;;
+    border: thick double #000000;
     color: rgb(0, 0, 0);
     padding: 0;
     text-align: center;
@@ -124,7 +124,7 @@ header {
     
 }
 #fizzValue{
-    border: thick double #000000;;
+    border: thick double #000000;
     color: rgb(0, 0, 0);
     padding: 0;
     text-align: center;
@@ -134,7 +134,7 @@ header {
     
 }
 #buzzValue{
-    border: thick double #000000;;
+    border: thick double #000000;
     color: rgb(0, 0, 0);
     padding: 0;
     text-align: center;
@@ -159,6 +159,7 @@ header {
     margin: 1px 1px;
     cursor: pointer;
     width: 385px;
+    border: thick double #000000;
  }
  #generate:hover {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
@@ -174,6 +175,7 @@ header {
     margin: 1px 1px;
     cursor: pointer;
     width: 385px;
+    border: thick double #000000;
 
  }
  #generate2:hover {
@@ -190,6 +192,7 @@ header {
     margin: 1px 1px;
     cursor: pointer;
     width: 385px;
+    border: thick double #000000;
 
 }
 #clear:hover {
@@ -214,6 +217,7 @@ header {
     margin: 1px 1px;
     cursor: pointer;
     width: 385px;
+    border: thick double #000000;
 
 }
 #FizzGen:hover {
@@ -230,6 +234,7 @@ header {
     margin: 1px 1px;
     cursor: pointer;
     width: 385px;
+    border: thick double #000000;
 
 }
 #BuzzGen:hover {
@@ -246,6 +251,7 @@ header {
     margin: 1px 1px;
     cursor: pointer;
     width: 385px;
+    border: thick double #000000;
 
 }
 #FizzBuzzGen:hover {
